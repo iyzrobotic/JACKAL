@@ -1,0 +1,3535 @@
+rostopic echo /imu_filter/parameter_descriptions
+groups: 
+  - 
+    name: Default
+    type: ''
+    parameters: 
+      - 
+        name: gain
+        type: double
+        level: 0
+        description: Gain of the filter. Higher values lead to faster convergence but more noise. Lower values lead to slower convergence but smoother signal.
+        edit_method: ''
+      - 
+        name: zeta
+        type: double
+        level: 0
+        description: Gyro drift gain (approx. rad/s).
+        edit_method: ''
+      - 
+        name: mag_bias_x
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), x component.
+        edit_method: ''
+      - 
+        name: mag_bias_y
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), y component.
+        edit_method: ''
+      - 
+        name: mag_bias_z
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), z component.
+        edit_method: ''
+      - 
+        name: orientation_stddev
+        type: double
+        level: 0
+        description: Standard deviation of the orientation estimate.
+        edit_method: ''
+    parent: 0
+    id: 0
+max: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 1.0
+    - 
+      name: zeta
+      value: 1.0
+    - 
+      name: mag_bias_x
+      value: 10.0
+    - 
+      name: mag_bias_y
+      value: 10.0
+    - 
+      name: mag_bias_z
+      value: 10.0
+    - 
+      name: orientation_stddev
+      value: 1.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+min: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 0.0
+    - 
+      name: zeta
+      value: -1.0
+    - 
+      name: mag_bias_x
+      value: -10.0
+    - 
+      name: mag_bias_y
+      value: -10.0
+    - 
+      name: mag_bias_z
+      value: -10.0
+    - 
+      name: orientation_stddev
+      value: 0.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+dflt: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 0.1
+    - 
+      name: zeta
+      value: 0.0
+    - 
+      name: mag_bias_x
+      value: 0.0
+    - 
+      name: mag_bias_y
+      value: 0.0
+    - 
+      name: mag_bias_z
+      value: 0.0
+    - 
+      name: orientation_stddev
+      value: 0.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+---
+name: Default
+    type: ''
+    parameters: 
+      - 
+        name: gain
+        type: double
+        level: 0
+        description: Gain of the filter. Higher values lead to faster convergence but more noise. Lower values lead to slower convergence but smoother signal.
+        edit_method: ''
+      - 
+        name: zeta
+        type: double
+        level: 0
+        description: Gyro drift gain (approx. rad/s).
+        edit_method: ''
+      - 
+        name: mag_bias_x
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), x component.
+        edit_method: ''
+      - 
+        name: mag_bias_y
+        type: double  stamp: 
+    secs: 1524005890
+    nsecs: 290048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379475
+  stamp: 
+    secs: 1524005890
+    nsecs: 303048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379476
+  stamp: 
+    secs: 1524005890
+    nsecs: 316048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379477
+  stamp: 
+    secs: 1524005890
+    nsecs: 329048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379478
+  stamp: 
+    secs: 1524005890
+    nsecs: 342048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379479
+  stamp: 
+    secs: 1524005890
+    nsecs: 355048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379480
+  stamp: 
+    secs: 1524005890
+    nsecs: 368048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379481
+  stamp: 
+    secs: 1524005890
+    nsecs: 399048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379482
+  stamp: 
+    secs: 1524005890
+    nsecs: 412048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379483
+  stamp: 
+    secs: 1524005890
+    nsecs: 425048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379484
+  stamp: 
+    secs: 1524005890
+    nsecs: 438048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379485
+  stamp: 
+    secs: 1524005890
+    nsecs: 451048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379486
+  stamp: 
+    secs: 1524005890
+    nsecs: 464048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379487
+  stamp:   stamp: 
+    secs: 1524005890
+    nsecs: 290048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379475
+  stamp: 
+    secs: 1524005890
+    nsecs: 303048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379476
+  stamp: 
+    secs: 1524005890
+    nsecs: 316048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379477
+  stamp: 
+    secs: 1524005890
+    nsecs: 329048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379478
+  stamp: 
+    secs: 1524005890
+    nsecs: 342048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379479
+  stamp: 
+    secs: 1524005890
+    nsecs: 355048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379480
+  stamp: 
+    secs: 1524005890
+    nsecs: 368048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379481
+  stamp: 
+    secs: 1524005890
+    nsecs: 399048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379482
+  stamp: 
+    secs: 1524005890
+    nsecs: 412048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379483
+  stamp: 
+    secs: 1524005890
+    nsecs: 425048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379484
+  stamp: 
+    secs: 1524005890
+    nsecs: 438048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379485
+  stamp: 
+    secs: 1524005890
+    nsecs: 451048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0^Cadministrator@CPR-J100-0155:~$ rostopic echo /imu_filter/parameter_descriptions
+groups: 
+  - 
+    name: Default
+    type: ''
+    parameters: 
+      - 
+        name: gain
+        type: double
+        level: 0
+        description: Gain of the filter. Higher values lead to faster convergence but more noise. Lower values lead to slower convergence but smoother signal.
+        edit_method: ''
+      - 
+        name: zeta
+        type: double
+        level: 0
+        description: Gyro drift gain (approx. rad/s).
+        edit_method: ''
+      - 
+        name: mag_bias_x
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), x component.
+        edit_method: ''
+      - 
+        name: mag_bias_y
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), y component.
+        edit_method: ''
+      - 
+        name: mag_bias_z
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), z component.
+        edit_method: ''
+      - 
+        name: orientation_stddev
+        type: double
+        level: 0
+        description: Standard deviation of the orientation estimate.
+        edit_method: ''
+    parent: 0
+    id: 0
+max: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 1.0
+    - 
+      name: zeta
+      value: 1.0
+    - 
+      name: mag_bias_x
+      value: 10.0
+    - 
+      name: mag_bias_y
+      value: 10.0
+    - 
+      name: mag_bias_z
+      value: 10.0
+    - 
+      name: orientation_stddev
+      value: 1.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+min: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 0.0
+    - 
+      name: zeta
+      value: -1.0
+    - 
+      name: mag_bias_x
+      value: -10.0
+    - 
+      name: mag_bias_y
+      value: -10.0
+    - 
+      name: mag_bias_z
+      value: -10.0
+    - 
+      name: orientation_stddev
+      value: 0.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+dflt: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 0.1
+    - 
+      name: zeta
+      value: 0.0
+    - 
+      name: mag_bias_x
+      value: 0.0
+    - 
+      name: mag_bias_y
+      value: 0.0
+    - 
+      name: mag_bias_z
+      value: 0.0
+    - 
+      name: orientation_stddev
+      value: 0.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+---
+^Cadministrator@CPR-J100-0155:~$ rostopic echo /imu_filter/parameter_descriptions
+
+  z: 0.0
+---
+header: 
+  seq: 379486
+  stamp: 
+    secs: 1524005890
+    nsecs: 464048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379487
+  stamp: 
+    secs: 1524005890
+    nsecs: 477048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379488
+  stamp: 
+    secs: 1524005890
+    nsecs: 490048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379489
+  stamp: 
+    secs: 1524005890
+    nsecs: 503048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379490
+  stamp: 
+    secs: 1524005890
+    nsecs: 516048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379491
+  stamp: 
+    secs: 1524005890
+    nsecs: 529048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379492
+  stamp: 
+    secs: 1524005890
+    nsecs: 542048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379493
+  stamp: 
+    secs: 1524005890
+    nsecs: 555048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379494
+  stamp: 
+    secs: 1524005890
+    nsecs: 568048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379495
+  stamp: 
+    secs: 1524005890
+    nsecs: 581048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379496
+  stamp: 
+    secs: 1524005890
+    nsecs: 594048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379497
+  stamp: 
+    secs: 1524005890
+    nsecs: 607048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379498
+  stamp: 
+    secs: 1524005890
+    nsecs: 620048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379499
+  stamp: 
+    secs: 1524005890
+    nsecs: 633048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379500
+  stamp: 
+    secs: 1524005890
+    nsecs: 646048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379501
+  stamp: 
+    secs: 1524005890
+    nsecs: 659048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379502
+  stamp: 
+    secs: 1524005890
+    nsecs: 672048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379503
+  stamp: 
+    secs: 1524005890
+    nsecs: 685048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379504
+  stamp: 
+    secs: 1524005890
+    nsecs: 698048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379505
+  stamp: 
+    secs: 1524005890
+    nsecs: 711048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379506
+  stamp: 
+    secs: 1524005890
+    nsecs: 724048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379507
+  stamp: 
+    secs: 1524005890
+    nsecs: 737048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379508
+  stamp: 
+    secs: 1524005890
+    nsecs: 750048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379509
+  stamp: 
+    secs: 1524005890
+    nsecs: 763048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379510
+  stamp: 
+    secs: 1524005890
+    nsecs: 776048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379511
+  stamp: 
+    secs: 1524005890
+    nsecs: 789048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379512
+  stamp: 
+    secs: 1524005890
+    nsecs: 802048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379513
+  stamp: 
+    secs: 1524005890
+    nsecs: 815048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379514
+  stamp: 
+    secs: 1524005890
+    nsecs: 828048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379515
+  stamp: 
+    secs: 1524005890
+    nsecs: 841048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379516
+  stamp: 
+    secs: 1524005890
+    nsecs: 854048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379517
+  stamp: 
+    secs: 1524005890
+    nsecs: 867048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379518
+  stamp: 
+    secs: 1524005890
+    nsecs: 898048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379519
+  stamp: 
+    secs: 1524005890
+    nsecs: 911048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379520
+  stamp: 
+    secs: 1524005890
+    nsecs: 924048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379521
+  stamp: 
+    secs: 1524005890
+    nsecs: 937048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379522
+  stamp: 
+    secs: 1524005890
+    nsecs: 950048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379523
+  stamp: 
+    secs: 1524005890
+    nsecs: 963048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379524
+  stamp: 
+    secs: 1524005890
+    nsecs: 976048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379525
+  stamp: 
+    secs: 1524005890
+    nsecs: 989048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379526
+  stamp: 
+    secs: 1524005891
+    nsecs:   2048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379527
+  stamp: 
+    secs: 1524005891
+    nsecs:  15048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379528
+  stamp: 
+    secs: 1524005891
+    nsecs:  28048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379529
+  stamp: 
+    secs: 1524005891
+    nsecs:  41048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379530
+  stamp: 
+    secs: 1524005891
+    nsecs:  54048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379531
+  stamp: 
+    secs: 1524005891
+    nsecs:  67048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379532
+  stamp: 
+    secs: 1524005891
+    nsecs:  98048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379533
+  stamp: 
+    secs: 1524005891
+    nsecs: 111048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379534
+  stamp: 
+    secs: 1524005891
+    nsecs: 124048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379535
+  stamp: 
+    secs: 1524005891
+    nsecs: 137048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379536
+  stamp: 
+    secs: 1524005891
+    nsecs: 150048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379537
+  stamp: 
+    secs: 1524005891
+    nsecs: 163048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379538
+  stamp: 
+    secs: 1524005891
+    nsecs: 176048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379539
+  stamp: 
+    secs: 1524005891
+    nsecs: 189048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379540
+  stamp: 
+    secs: 1524005891
+    nsecs: 202048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379541
+  stamp: 
+    secs: 1524005891
+    nsecs: 215048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379542
+  stamp: 
+    secs: 1524005891
+    nsecs: 228048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379543
+  stamp: 
+    secs: 1524005891
+    nsecs: 241048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379544
+  stamp: 
+    secs: 1524005891
+    nsecs: 254048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379545
+  stamp: 
+    secs: 1524005891
+    nsecs: 267048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379546
+  stamp: 
+    secs: 1524005891
+    nsecs: 298048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379547
+  stamp: 
+    secs: 1524005891
+    nsecs: 311048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379548
+  stamp: 
+    secs: 1524005891
+    nsecs: 324048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379549
+  stamp: 
+    secs: 1524005891
+    nsecs: 337048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379550
+  stamp: 
+    secs: 1524005891
+    nsecs: 350048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379551
+  stamp: 
+    secs: 1524005891
+    nsecs: 363048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379552
+  stamp: 
+    secs: 1524005891
+    nsecs: 376048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379553
+  stamp: 
+    secs: 1524005891
+    nsecs: 389048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379554
+  stamp: 
+    secs: 1524005891
+    nsecs: 402048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379555
+  stamp: 
+    secs: 1524005891
+    nsecs: 415048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379556
+  stamp: 
+    secs: 1524005891
+    nsecs: 428048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379557
+  stamp: 
+    secs: 1524005891
+    nsecs: 441048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379558
+  stamp: 
+    secs: 1524005891
+    nsecs: 454048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379559
+  stamp: 
+    secs: 1524005891
+    nsecs: 467048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379560
+  stamp: 
+    secs: 1524005891
+    nsecs: 498048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379561
+  stamp: 
+    secs: 1524005891
+    nsecs: 511048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379562
+  stamp: 
+    secs: 1524005891
+    nsecs: 524048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379563
+  stamp: 
+    secs: 1524005891
+    nsecs: 537048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379564
+  stamp: 
+    secs: 1524005891
+    nsecs: 550048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+^Cadministrator@CPR-J100-0155:~$ rostopic echo /imu/mag
+
+    secs: 1524005890
+    nsecs: 477048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379488
+  stamp: 
+    secs: 1524005890
+    nsecs: 490048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379489
+  stamp: 
+    secs: 1524005890
+    nsecs: 503048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379490
+  stamp: 
+    secs: 1524005890
+    nsecs: 516048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379491
+  stamp: 
+    secs: 1524005890
+    nsecs: 529048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379492
+  stamp: 
+    secs: 1524005890
+    nsecs: 542048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379493
+  stamp: 
+    secs: 1524005890
+    nsecs: 555048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379494
+  stamp: 
+    secs: 1524005890
+    nsecs: 568048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379495
+  stamp: 
+    secs: 1524005890
+    nsecs: 581048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379496
+  stamp: 
+    secs: 1524005890
+    nsecs: 594048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379497
+  stamp: 
+    secs: 1524005890
+    nsecs: 607048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379498
+  stamp: 
+    secs: 1524005890
+    nsecs: 620048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379499
+  stamp: 
+    secs: 1524005890
+    nsecs: 633048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379500
+  stamp: 
+    secs: 1524005890
+    nsecs: 646048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379501
+  stamp: 
+    secs: 1524005890
+    nsecs: 659048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379502
+  stamp: 
+    secs: 1524005890
+    nsecs: 672048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379503
+  stamp: 
+    secs: 1524005890
+    nsecs: 685048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379504
+  stamp: 
+    secs: 1524005890
+    nsecs: 698048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379505
+  stamp: 
+    secs: 1524005890
+    nsecs: 711048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379506
+  stamp: 
+    secs: 1524005890
+    nsecs: 724048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379507
+  stamp: 
+    secs: 1524005890
+    nsecs: 737048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379508
+  stamp: 
+    secs: 1524005890
+    nsecs: 750048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379509
+  stamp: 
+    secs: 1524005890
+    nsecs: 763048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379510
+  stamp: 
+    secs: 1524005890
+    nsecs: 776048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379511
+  stamp: 
+    secs: 1524005890
+    nsecs: 789048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379512
+  stamp: 
+    secs: 1524005890
+    nsecs: 802048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379513
+  stamp: 
+    secs: 1524005890
+    nsecs: 815048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379514
+  stamp: 
+    secs: 1524005890
+    nsecs: 828048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379515
+  stamp: 
+    secs: 1524005890
+    nsecs: 841048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379516
+  stamp: 
+    secs: 1524005890
+    nsecs: 854048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379517
+  stamp: 
+    secs: 1524005890
+    nsecs: 867048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379518
+  stamp: 
+    secs: 1524005890
+    nsecs: 898048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379519
+  stamp: 
+    secs: 1524005890
+    nsecs: 911048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379520
+  stamp: 
+    secs: 1524005890
+    nsecs: 924048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379521
+  stamp: 
+    secs: 1524005890
+    nsecs: 937048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379522
+  stamp: 
+    secs: 1524005890
+    nsecs: 950048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379523
+  stamp: 
+    secs: 1524005890
+    nsecs: 963048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379524
+  stamp: 
+    secs: 1524005890
+    nsecs: 976048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379525
+  stamp: 
+    secs: 1524005890
+    nsecs: 989048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379526
+  stamp: 
+    secs: 1524005891
+    nsecs:   2048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379527
+  stamp: 
+    secs: 1524005891
+    nsecs:  15048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379528
+  stamp: 
+    secs: 1524005891
+    nsecs:  28048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379529
+  stamp: 
+    secs: 1524005891
+    nsecs:  41048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379530
+  stamp: 
+    secs: 1524005891
+    nsecs:  54048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379531
+  stamp: 
+    secs: 1524005891
+    nsecs:  67048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379532
+  stamp: 
+    secs: 1524005891
+    nsecs:  98048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379533
+  stamp: 
+    secs: 1524005891
+    nsecs: 111048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379534
+  stamp: 
+    secs: 1524005891
+    nsecs: 124048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379535
+  stamp: 
+    secs: 1524005891
+    nsecs: 137048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379536
+  stamp: 
+    secs: 1524005891
+    nsecs: 150048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379537
+  stamp: 
+    secs: 1524005891
+    nsecs: 163048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379538
+  stamp: 
+    secs: 1524005891
+    nsecs: 176048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379539
+  stamp: 
+    secs: 1524005891
+    nsecs: 189048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379540
+  stamp: 
+    secs: 1524005891
+    nsecs: 202048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379541
+  stamp: 
+    secs: 1524005891
+    nsecs: 215048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379542
+  stamp: 
+    secs: 1524005891
+    nsecs: 228048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379543
+  stamp: 
+    secs: 1524005891
+    nsecs: 241048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379544
+  stamp: 
+    secs: 1524005891
+    nsecs: 254048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379545
+  stamp: 
+    secs: 1524005891
+    nsecs: 267048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379546
+  stamp: 
+    secs: 1524005891
+    nsecs: 298048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379547
+  stamp: 
+    secs: 1524005891
+    nsecs: 311048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379548
+  stamp: 
+    secs: 1524005891
+    nsecs: 324048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379549
+  stamp: 
+    secs: 1524005891
+    nsecs: 337048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379550
+  stamp: 
+    secs: 1524005891
+    nsecs: 350048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379551
+  stamp: 
+    secs: 1524005891
+    nsecs: 363048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379552
+  stamp: 
+    secs: 1524005891
+    nsecs: 376048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379553
+  stamp: 
+    secs: 1524005891
+    nsecs: 389048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379554
+  stamp: 
+    secs: 1524005891
+    nsecs: 402048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379555
+  stamp: 
+    secs: 1524005891
+    nsecs: 415048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379556
+  stamp: 
+    secs: 1524005891
+    nsecs: 428048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379557
+  stamp: 
+    secs: 1524005891
+    nsecs: 441048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379558
+  stamp: 
+    secs: 1524005891
+    nsecs: 454048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379559
+  stamp: 
+    secs: 1524005891
+    nsecs: 467048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379560
+  stamp: 
+    secs: 1524005891
+    nsecs: 498048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379561
+  stamp: 
+    secs: 1524005891
+    nsecs: 511048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379562
+  stamp: 
+    secs: 1524005891
+    nsecs: 524048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379563
+  stamp: 
+    secs: 1524005891
+    nsecs: 537048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+header: 
+  seq: 379564
+  stamp: 
+    secs: 1524005891
+    nsecs: 550048669
+  frame_id: imu_link
+vector: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+^Cadministrator@CPR-J100-0155:~$ rostopic echo /imu/mag
+
+        level: 0
+        description: Magnetometer bias (hard iron correction), y component.
+        edit_method: ''
+      - 
+        name: mag_bias_z
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), z component.
+        edit_method: ''
+      - 
+        name: orientation_stddev
+        type: double
+        level: 0
+        description: Standard deviation of the orientation estimate.
+        edit_method: ''
+    parent: 0
+    id: 0
+max: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 1.0
+    - 
+      name: zeta
+      value: 1.0
+    - 
+      name: mag_bias_x
+      value: 10.0
+    - 
+      name: mag_bias_y
+      value: 10.0
+    - 
+      name: mag_bias_z
+      value: 10.0
+    - 
+      name: orientation_stddev
+      value: 1.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+min: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 0.0
+    - 
+      name: zeta
+      value: -1.0
+    - 
+      name: mag_bias_x
+      value: -10.0
+    - 
+      name: mag_bias_y
+      value: -10.0
+    - 
+      name: mag_bias_z
+      value: -10.0
+    - 
+      name: orientation_stddev
+      value: 0.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+dflt: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 0.1
+    - 
+      name: zeta
+      value: 0.0
+    - 
+      name: mag_bias_x
+      value: 0.0
+    - 
+      name: mag_bias_y
+      value: 0.0
+    - 
+      name: mag_bias_z
+      value: 0.0
+    - 
+      name: orientation_stddev
+      value: 0.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+---
+
+
+second
+
+^Cadministrator@CPR-J100-0155:~$ rostopic echo /imu_filter/parameter_descriptions
+groups: 
+  - 
+    name: Default
+    type: ''
+    parameters: 
+      - 
+        name: gain
+        type: double
+        level: 0
+        description: Gain of the filter. Higher values lead to faster convergence but more noise. Lower values lead to slower convergence but smoother signal.
+        edit_method: ''
+      - 
+        name: zeta
+        type: double
+        level: 0
+        description: Gyro drift gain (approx. rad/s).
+        edit_method: ''
+      - 
+        name: mag_bias_x
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), x component.
+        edit_method: ''
+      - 
+        name: mag_bias_y
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), y component.
+        edit_method: ''
+      - 
+        name: mag_bias_z
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), z component.
+        edit_method: ''
+      - 
+        name: orientation_stddev
+        type: double
+        level: 0
+        description: Standard deviation of the orientation estimate.
+        edit_method: ''
+    parent: 0
+    id: 0
+max: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 1.0
+    - 
+      name: zeta
+      value: 1.0
+    - 
+      name: mag_bias_x
+      value: 10.0
+    - 
+      name: mag_bias_y
+      value: 10.0
+    - 
+      name: mag_bias_z
+      value: 10.0
+    - 
+      name: orientation_stddev
+      value: 1.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+min: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 0.0
+    - 
+      name: zeta
+      value: -1.0
+    - 
+      name: mag_bias_x
+      value: -10.0
+    - 
+      name: mag_bias_y
+      value: -10.0
+    - 
+      name: mag_bias_z
+      value: -10.0
+    - 
+      name: orientation_stddev
+      value: 0.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+dflt: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 0.1
+    - 
+      name: zeta
+      value: 0.0
+    - 
+      name: mag_bias_x
+      value: 0.0
+    - 
+      name: mag_bias_y
+      value: 0.0
+    - 
+      name: mag_bias_z
+      value: 0.0
+    - 
+      name: orientation_stddev
+      value: 0.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+---
+^Cadministrator@CPR-J100-0155:~$ rostopic echo /imu_filter/parameter_descriptions
+90 degree
+
+  seq: 292641
+  stamp: 
+    secs: 1524006690
+    nsecs: 954617089
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292642
+  stamp: 
+    secs: 1524006690
+    nsecs: 974617519
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292643
+  stamp: 
+    secs: 1524006690
+    nsecs: 994591154
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292644
+  stamp: 
+    secs: 1524006691
+    nsecs:  14616144
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292645
+  stamp: 
+    secs: 1524006691
+    nsecs:  34626858
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292646
+  stamp: 
+    secs: 1524006691
+    nsecs:  54615644
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292647
+  stamp: 
+    secs: 1524006691
+    nsecs:  74624146
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292648
+  stamp: 
+    secs: 1524006691
+    nsecs:  94616450
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292649
+  stamp: 
+    secs: 1524006691
+    nsecs: 114616768
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292650
+  stamp: 
+    secs: 1524006691
+    nsecs: 134626601
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292651
+  stamp: 
+    secs: 1524006691
+    nsecs: 154617160
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292652
+  stamp: 
+    secs: 1524006691
+    nsecs: 174641958
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292653
+  stamp: 
+    secs: 1524006691
+    nsecs: 194616405
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292654
+  stamp: 
+    secs: 1524006691
+    nsecs: 214615737
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292655
+  stamp: 
+    secs: 1524006691
+    nsecs: 234641066
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292656
+  stamp: 
+    secs: 1524006691
+    nsecs: 254596139
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292657
+  stamp: 
+    secs: 1524006691
+    nsecs: 274616322
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292658
+  stamp: 
+    secs: 1524006691
+    nsecs: 294616003
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292659
+  stamp: 
+    secs: 1524006691
+    nsecs: 314640951
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292660
+  stamp: 
+    secs: 1524006691
+    nsecs: 334665991
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292661
+  stamp: 
+    secs: 1524006691
+    nsecs: 354616981
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292662
+  stamp: 
+    secs: 1524006691
+    nsecs: 374653956
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292663
+  stamp: 
+    secs: 1524006691
+    nsecs: 394616319
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292664
+  stamp: 
+    secs: 1524006691
+    nsecs: 414617440
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292665
+  stamp: 
+    secs: 1524006691
+    nsecs: 434618446
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292666
+  stamp: 
+    secs: 1524006691
+    nsecs: 454615554
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+header: 
+  seq: 292667
+  stamp: 
+    secs: 1524006691
+    nsecs: 474616542
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+^Cheader: 
+  seq: 292668
+  stamp: 
+    secs: 1524006691
+    nsecs: 494626042
+  frame_id: odom
+child_frame_id: base_link
+pose: 
+  pose: 
+    position: 
+      x: 1.56440062809
+      y: 5.44845376072
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.0114194966353
+      w: 0.999934795422
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+twist: 
+  twist: 
+    linear: 
+      x: -8.29428214479e-16
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 6.00615477492e-16
+  covariance: [0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03]
+---
+administrator@CPR-J100-0155:~$ rostopic echo /imu_filter/parameter_descriptions
+groups: 
+  - 
+    name: Default
+    type: ''
+    parameters: 
+      - 
+        name: gain
+        type: double
+        level: 0
+        description: Gain of the filter. Higher values lead to faster convergence but more noise. Lower values lead to slower convergence but smoother signal.
+        edit_method: ''
+      - 
+        name: zeta
+        type: double
+        level: 0
+        description: Gyro drift gain (approx. rad/s).
+        edit_method: ''
+      - 
+        name: mag_bias_x
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), x component.
+        edit_method: ''
+      - 
+        name: mag_bias_y
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), y component.
+        edit_method: ''
+      - 
+        name: mag_bias_z
+        type: double
+        level: 0
+        description: Magnetometer bias (hard iron correction), z component.
+        edit_method: ''
+      - 
+        name: orientation_stddev
+        type: double
+        level: 0
+        description: Standard deviation of the orientation estimate.
+        edit_method: ''
+    parent: 0
+    id: 0
+max: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 1.0
+    - 
+      name: zeta
+      value: 1.0
+    - 
+      name: mag_bias_x
+      value: 10.0
+    - 
+      name: mag_bias_y
+      value: 10.0
+    - 
+      name: mag_bias_z
+      value: 10.0
+    - 
+      name: orientation_stddev
+      value: 1.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+min: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 0.0
+    - 
+      name: zeta
+      value: -1.0
+    - 
+      name: mag_bias_x
+      value: -10.0
+    - 
+      name: mag_bias_y
+      value: -10.0
+    - 
+      name: mag_bias_z
+      value: -10.0
+    - 
+      name: orientation_stddev
+      value: 0.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+dflt: 
+  bools: []
+  ints: []
+  strs: []
+  doubles: 
+    - 
+      name: gain
+      value: 0.1
+    - 
+      name: zeta
+      value: 0.0
+    - 
+      name: mag_bias_x
+      value: 0.0
+    - 
+      name: mag_bias_y
+      value: 0.0
+    - 
+      name: mag_bias_z
+      value: 0.0
+    - 
+      name: orientation_stddev
+      value: 0.0
+  groups: 
+    - 
+      name: Default
+      state: True
+      id: 0
+      parent: 0
+---
+^Cadministrator@CPR-J100-0155:~$ rostopic echo /imu_filter/parameter_descriptions
+
+
